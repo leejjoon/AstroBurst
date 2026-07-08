@@ -32,6 +32,12 @@
 
 ---
 
+> **Archived.** This fork's active development has moved to
+> [`astroburst-server`](https://github.com/leejjoon/astroburst-server), a headless HTTP server extracted from this
+> codebase's Rust backend, built for AI-agent-driven image processing rather than the desktop GUI. This repo is
+> kept around for historical reference only and is no longer maintained. For the original desktop app, see the
+> upstream project at [samuelkriegerbonini-dev/AstroBurst](https://github.com/samuelkriegerbonini-dev/AstroBurst).
+
 AstroBurst is an open-source desktop app for processing astronomical images. Drop in your FITS or ASDF files, compose RGB from narrowband channels, stack with sigma clipping, and export. Everything runs locally on your machine with no cloud dependencies.
 
 It's built on Rust for the heavy lifting, React for the interface, and WebGPU for real-time preview. The result is a tool that opens a 2 GB IFU datacube in 300 ms, processes 10 frames at 1.4 GB/s, and renders STF adjustments in 8 ms on GPU.
